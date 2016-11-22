@@ -10,21 +10,21 @@
     {
       "title": "Mass Shooting Data",
       "desc": "Grabs mass shooting data from a .csv file by calling an Ajax request. Parses the data with Papa Parse, and displays the data with Leaflet and Table ",
-      "image": "../imgs/shooting.png",
+      "image": "imgs/shooting.png",
       "url": "http://students.washington.edu/eunmyun/info343/a3-mapping-eunmyun/",
       "tools": ["HTML", "CSS", "JavaScript", "JQuery", "PapaParse", "Leaflet"]
     },
     {
       "title": "Tweeter",
       "desc": "A web page that users can sign up, sign in, upload posts, and likes. Used firebase for user authentication and data storage.",
-      "image": "./imgs/tweeter.png",
+      "image": "imgs/tweeter.png",
       "url": "http://students.washington.edu/eunmyun/info343/a4-firebase-eunmyun/sign-in.html",
       "tools": ["HTML", "CSS", "JavaScript", "Jquery", "Firebase", "Materialize"]
     },
     {
       "title": "Spotify",
       "desc": "A user can type in a song or an artist to get a list of tracks. A user also can click on the tracks to preview the song. Used Sptify api and React.",
-      "image": "../../imgs/spotify.png",
+      "image": "imgs/spotify.png",
       "url": "http://students.washington.edu/eunmyun/info343/a5-spotify-eunmyun/",
       "tools": ["HTML", "CSS", "JavaScript", "Jquery", "React", "Materialize", "Spotify-api"]
     }
