@@ -14,6 +14,7 @@ var ProjectPage = React.createClass({
     },
 
     componentDidMount() {
+      console.log("componentDidMount");
       $.get('data/project.json').then(function(data) {
         console.log("data.projects is " + data.projects);
         this.setState({projectArray:data.projects})
@@ -21,6 +22,7 @@ var ProjectPage = React.createClass({
     },
 
     render() {
+      console.log("render");
       console.log("state is now " + this.state.projectArray);
         return(
           <div className="flex-container">
