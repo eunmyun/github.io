@@ -15,9 +15,10 @@ var ProjectPage = React.createClass({
     componentDidMount() {
       console.log("componentDidMount");
       $.get('data/project.json').then(function(data) {
-        console.log("data is " + data);
-        console.log("project is " + data.projects);
-        this.setState({projectArray: data})
+        var jdata = JSON.parse(data);
+        console.log("data is " + jdata);
+        console.log("project is " + jdata.projects);
+        this.setState({projectArray: jdata})
       }.bind(this));
     },
 
