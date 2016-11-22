@@ -15,11 +15,13 @@ var ProjectPage = React.createClass({
 
     componentDidMount() {
       $.get('data/project.json').then(function(data) {
+        console.log("data.projects is " + data.projects);
         this.setState({projectArray:data.projects})
       }.bind(this));
     },
 
     render() {
+      console.log("state is now " + this.state.projectArray);
         return(
           <div className="flex-container">
             {this.state.projectArray.map(function(d, i){
