@@ -1,4 +1,6 @@
 import React from 'react';
+import $ from 'jquery';
+import './css/Project.css'
 
 var Project = React.createClass({
   render() {
