@@ -18,7 +18,7 @@ var ProjectPage = React.createClass({
         var jdata = JSON.parse(data);
         console.log("data is " + jdata);
         console.log("project is " + jdata.projects);
-        this.setState({projectArray: jdata})
+        this.setState({projectArray: jdata.projects})
       }.bind(this));
     },
 
