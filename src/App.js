@@ -1,21 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Application
+import React from 'react';
+import './css/App.css';
+import { Link } from 'react-router';
+import '../node_modules/font-awesome/css/font-awesome.css'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+var App = React.createClass({
+	render() {
+		// Return links and show anything inside the <App> component (children)
+		return (
+				<div className="App">
+					<header className="container">
+						<h1>MyungJin(Lucy) Eun</h1>
+						<h4>portfolio</h4>
+						<Link className="link" activeClassName='active' to="/">Projects</Link>
+						<Link className="link" activeClassName='active' to="/resume">Resume</Link>
+						<Link className="link" activeClassName='active' to="/about">About</Link>
+					</header>
+					<div className="children">
+						{this.props.children}
+					</div>
+				</div>
+		);
+	}
+});
 
 export default App;
