@@ -1,5 +1,16 @@
 # Exercise-2
 
-In this exercise, we'll build a (very) simple multi-page application using **React Router**. There are currently two pages (Components) that are already built. For this exercise, you should **add a third page** (component) and **add a link to it**.
+## What is the purpose of your project (i.e., why would someone use this app)?
+  - This web page is a place to store all of the works I did.
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+## What is the URL of this project on your student web-server?
+  - http://students.washington.edu/eunmyun/info343/github.io/#/
+
+## Did you receive help from any other sources (classmates, etc.)? If so, please list who.
+  - Slack, in class exercises
+
+## Approximately how many hours did it take you to complete this challenge?
+  - It took about 10 hours. It took more than I expected because sometimes when I was stuck, even if it was a trivial thing, I could not figure it out.
+
+## Did you encounter any problems in this challenge we should warn students about in the future? How can we make the challenge better?
+ - I used Json file for my data, and for some reason I had to use JSON.parse in the student server, otherwise my data wouldn't load. However, the local server does not recognize my data if I used JSON.parse. Maybe pointing out the differences between the two servers might help.
