@@ -21,5 +21,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://students.washington.edu/eunmyun/github.io"
+  "homepage": "http://students.washington.edu/eunmyun/info343/github.io"
 }
