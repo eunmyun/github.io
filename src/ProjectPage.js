@@ -15,7 +15,7 @@ var ProjectPage = React.createClass({
     componentDidMount() {
       console.log("componentDidMount");
       $.get('data/project.json').then(function(data) {
-        console.log("data is " + data);
+        console.log("data is " + data.projects);
         this.setState({projectArray:data.projects})
       }.bind(this));
     },
