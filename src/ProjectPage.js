@@ -7,7 +7,7 @@ import $ from 'jquery';
 var ProjectPage = React.createClass({
     getInitialState() {
       console.log("getInitialState");
-      componentDidMount();
+      this.componentDidMount();
 
       return {
         projectArray: []
